@@ -8,7 +8,7 @@ A basic custom login system is already in place with its login, password-reset, 
   # PostgreSQL database settings
   - ***POSTGRES_DB*** : name of the database in postgres
   - ***POSTGRES_USER*** : Postgres username you want.
-  - ***POSTGRES_PASSWORD** : Postgres password you want.
+  - ***POSTGRES_PASSWORD*** : Postgres password you want.
   # PgAdmin credentials. These will be used to login into the webui for PgAdmin.
   - ***PGADMIN_DEFAULT_EMAIL*** : pgadmin username you want.
   - ***PGADMIN_DEFAULT_PASSWORD** : pgadmin password you want.
