@@ -20,6 +20,7 @@ A basic custom login system is already in place with its login, password-reset, 
   - ***db_name*** : PostgreSQL database name. Must be same as ***POSTGRES_DB*** variable set above.
   - ***db_port*** : 5432.
   - ***DJANGO_DEVELOPMENT*** : Set to `True` to set `DEBUG = True`. In production, set this value to `False`.
+  - ***DJANGO_SETTINGS_MODULE*** : Should be set to `drf_boilerplate.settings.common`.
 
 - After configuring the dev.txt, just open cmd/terminal in project root and run `docker compose -f docker-compose-dev.yml up` command and everything should be up and running.
 - Once logged into PgAdmin for the first time, make sure to add the PostgreSQL server. The server name should be "db". And use the ***POSTGRES_USER*** and ***POSTGRES_PASSWORD** values set in dev.txt as login credentials.
