@@ -6,7 +6,7 @@ from django.dispatch import receiver
 from django.template.loader import render_to_string
 from django_rest_passwordreset.signals import reset_password_token_created
 from rest_framework_simplejwt.token_blacklist.models import OutstandingToken, BlacklistedToken
-from couples_tools.settings import common
+from drf_boilerplate.settings import common
 
 
 class UserManager(BaseUserManager):

@@ -1,5 +1,5 @@
 """
-WSGI config for couples_tools project.
+WSGI config for drf_boilerplate project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'couples_tools.settings.common')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'drf_boilerplate.settings.common')
 
 application = get_wsgi_application()
